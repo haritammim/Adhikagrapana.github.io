@@ -1,0 +1,183 @@
+/* Navigation Bar */
+.navbar{
+    background-color: rgb(65, 152, 252);
+}
+.navbar-brand{
+    font-family: 'Viga', sans-serif;
+    font-size: 30px;
+    color: yellow;
+}
+.nav-link{
+    margin-right: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+.btn-navbar{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    border-radius: 20px;
+}
+/* Navigation Bar End */
+
+/* Jumbotron */
+.jumbotron{
+    background-color: #a9f5ff;
+    padding-top: 8rem;
+}
+
+.img-jumbotron{
+    width: 50%;
+    height: 50%;
+}
+.h2-jumbotron{
+    font-size: 20px;
+    padding-top: 1rem;
+    font-family: 'Viga', sans-serif;
+}
+.lead{
+    font-size: 15px;
+}
+/* Jumbotron End */
+
+/* About */
+.about{
+    background-color: #92ff84;
+    padding-top: 6rem;
+}
+.h2-about{
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+}
+.paragraf{
+    padding-top: 1rem;
+    font-family: 'Kanit', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 10px;
+}
+/* About End */
+
+/* Content */
+.content{
+    background-color: #a9f5ff;
+}
+.h2-content{
+    padding: 1rem;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+}
+.img-content{
+    width: 70%;
+}
+.card-title{
+    font-size: 10px;
+}
+/* Content End */
+
+/* Contact */
+.contact{
+    background-color: #92ff84;
+    padding-bottom: 2rem;
+}
+.img-contact{
+    width: 10%;
+    height: 10%;
+}
+.isi-contact{
+    font-size: 15px;
+}
+/* Contact End */
+
+/* Footer */
+.footer{
+    padding: 1rem;
+    background-color: #c4ffbc;
+}
+.tulisan{
+    font-size: 80%;
+    font-weight: bold;
+}
+/* Footer End */
+
+
+/* Dekstop */
+@media (min-width: 992px){
+    /* Jumbotron */
+    .jumbotron{
+        padding-top: 12rem;
+    }
+    .img-jumbotron{
+        width: 25%;
+        height: 25%;
+    }
+    .h2-jumbotron{
+        font-size: 60px;
+        padding-top: 2rem;
+    }
+    .lead{
+        font-size: 20px;
+    }
+    /* Jumbotron End */
+
+    /* About */
+    .about{
+        padding-top: 6rem;
+    }
+    .h2-about{
+        font-family: 'Anton', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    .paragraf{
+        padding-top: 1rem;
+        font-family: 'Kanit', sans-serif;
+        font-style: italic;
+        font-weight: 100;
+        font-size: 25px;
+    }
+    /* About End */
+
+    /* Content  */
+    .card-title{
+        font-size: medium;
+        font-family: 'Viga', sans-serif;
+
+    }
+    .img-content{
+        width: 40%;
+    }
+    .h2-content{
+        padding: 1rem;
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+    }
+
+    /* Content End */
+
+    /* Contact */
+    .contact{
+        padding-bottom: 8rem;
+    }
+    .img-contact{
+        width: 10%;
+        height: 10%;
+    }
+    .isi-contact{
+        font-size: 50px;
+    }
+    /* Contact End */
+
+    /* Footer */
+    .footer{
+        padding: 2rem;
+        background-color: rgb(252, 252, 153);
+    }
+    .tulisan{
+        font-size: 300%;
+    }
+    /* Footer End */
+}
